@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Graphik-Regular, "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+
+
+.container{
+    display: flex;
+
+    align-items: center;
+    gap: 30px;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-image: url('../images/1664201099-home-nubank.webp');
+    background-size: 100%;
+}
+.container-titles {
+    width: 40%;
+    margin-left:130px ;
+    margin-top: 30px;
+
+}
+.container-titles h1{
+   
+    margin: 0px 0px 16px;
+    white-space: pre-line;
+    font-weight: 600;
+    letter-spacing: -0.03em;
+    font-size: 1.875rem;
+    line-height: 1.2;
+    color: rgb(255, 255, 255);
+    font-size: 48px;
+}
+.container-titles h2{
+    margin: 0px 0px 16px;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    font-size: 1.25rem;
+    line-height: 1.22;
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+}
+
+.container-cpf{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+ 
+}
+
+.container-cpf div{
+ 
+    width: 300px;
+    height: 300px;
+    background-color: #ffffffff;
+    border-radius: 20px;
+}
