@@ -54,9 +54,43 @@ body{
 }
 
 .container-cpf div{
- 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    padding: 10px;
     width: 300px;
     height: 300px;
     background-color: #ffffffff;
     border-radius: 20px;
+}
+.container-cpf div h3{
+    
+        font-family: Graphik-Medium, Graphik-Regular, "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        margin: 0px 0px 32px;
+        color: rgb(17, 17, 17);
+        font-weight: 500;
+        letter-spacing: -0.02em;
+        font-size: 1.5rem;
+        line-height: 1.32;
+    
+}
+
+.container-cpf div input{
+    width: 100%;
+
+    border: none;
+    
+    border-bottom:1px solid rgba(17, 17, 17, 0.2);
+}
+
+.container-cpf div button{
+    width: 90%;
+    height: 50px;
+    border-radius: 30px;
+    border: none;
+    background: rgba(17, 17, 17, 0.1);
+    color: rgba(17, 17, 17, 0.2);
+    font-size: 1rem;
 }
