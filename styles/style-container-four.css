@@ -1,0 +1,50 @@
+
+.container-four {
+    display: flex;
+    flex-direction: row;
+    
+    align-items: center;
+    gap:30px;
+    height: 100vh;
+    margin: 0px 80px;
+}
+.paragrafo-two {
+    margin: 0px 0px 32px;
+    white-space: pre-line;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    font-size: 50px;
+    line-height: 1.32;
+    color: rgb(17, 17, 17);
+ 
+}
+.container-text{
+    width: 70%;
+}
+.container-photo{
+    display: flex;
+    justify-content: center;
+    width: 40%;
+}
+.container-photo img{
+    width: 290px;
+    height: 485px;
+}
+
+.more-three{
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+}
+.more-three::after {
+    
+    content: '';
+    width: 0px;
+    height: 2px;
+    display: block;
+    background:rgb(130, 10, 209);
+    transition: 300ms;
+}
+.more-three:hover::after{
+   width: 40%;
+}
